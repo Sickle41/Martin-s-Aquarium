@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto 1fr; /* Top row takes content height, bottom row takes remaining space */
+    min-height: 100vh; /* Ensures main takes up full viewport height */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid */
+    box-sizing: border-box;
+}
+
+#fishList {
+    grid-column: 1 / 2; /* Starts at column 1, ends before column 2 (i.e., first column) */
+    grid-row: 1 / 2;    /* Starts at row 1, ends before row 2 (i.e., first row) */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#tipList {
+    grid-column: 2 / 3; /* Starts at column 2, ends before column 3 (i.e., second column) */
+    grid-row: 1 / 2;    /* Starts at row 1, ends before row 2 (i.e., first row) */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#locationList {
+    grid-column: 1 / 2; /* Starts at column 1, ends before column 2 (i.e., first column) */
+    grid-row: 2 / 3;    /* Starts at row 2, ends before row 3 (i.e., second row) */
+    align-self: end; /* Aligns this item to the end of its grid area (bottom) */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Optional: Basic styling for content within the lists, if needed */
+.fishList, .locationList, .tipList {
+    display: flex; /* Or grid, depending on how you want to layout items within each section */
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.fishCard, .locationCard, .tipCard {
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
