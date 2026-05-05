@@ -84,5 +84,38 @@ export const database = {
             text: "Always quarantine new fish in a separate tank for at least two weeks before introducing them to your main aquarium."
         }
 
+    ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+                {
+            name: "Red Sea",
+            country: "Egypt",
+            description: "The Red Sea is known for its stunning coral reefs and diverse marine ecosystem."
+        },
+        {
+            name: "Amazon River",
+            country: "Brazil",
+            description: "The Amazon River is the largest river by discharge volume of water in the world, home to unique freshwater species."
+        },
+        {
+            name: "Lake Malawi",
+            country: "Malawi",
+            description: "Lake Malawi is an African Great Lake and is known for its cichlid species, which are endemic to the lake."
+        },
+        {
+            name: "Mesoamerican Barrier Reef System",
+            country: "Belize",
+            description: "The Mesoamerican Barrier Reef System is the second-largest barrier reef in the world, stretching along the coasts of Mexico, Belize, Guatemala, and Honduras."
+        },
+        {
+            name: "Florida Keys",
+            country: "United States",
+            description: "The Florida Keys are a coral cay archipelago in the southeastern United States, famous for its abundant marine life and reef ecosystems."
+        }
+
     ]
 }
