@@ -57,5 +57,32 @@ export const database = {
             image: "https://example.com/images/deb.jpg"
         }
 
+    ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+                {
+            topic: "Water Changes",
+            text: "Perform regular partial water changes (25-50% weekly) to remove nitrates and replenish essential minerals."
+        },
+        {
+            topic: "Filtration",
+            text: "Ensure your aquarium has adequate filtration, including mechanical, chemical, and biological filtration."
+        },
+        {
+            topic: "Feeding",
+            text: "Feed your fish small amounts multiple times a day, only what they can consume in a few minutes."
+        },
+        {
+            topic: "Tank Size",
+            text: "Choose an appropriately sized tank for the type and number of fish you plan to keep to prevent overcrowding."
+        },
+        {
+            topic: "Quarantine New Fish",
+            text: "Always quarantine new fish in a separate tank for at least two weeks before introducing them to your main aquarium."
+        }
+
     ]
 }
