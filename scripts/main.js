@@ -1,6 +1,9 @@
 import { fishList } from './fishList.js'
 import { tipList } from './tipList.js'
 import { locationList } from './locationList.js'
+import { mostHolyFish } from './aquariumData.js'
+import { soldierFish } from './aquariumData.js'
+import { regularFish } from './aquariumData.js'
 
 // Generate the fish list
 const fishHTML = fishList()
