@@ -2,6 +2,7 @@ import { fishList } from './fishList.js'
 import { tipList } from './tipList.js'
 import { locationList } from './locationList.js'
 
+
 // Generate the fish list
 const fishHTML = fishList()
 
@@ -37,3 +38,4 @@ const Map = `
 const atlas = document.querySelector("#locationList")
 
 atlas.innerHTML = Map
+
